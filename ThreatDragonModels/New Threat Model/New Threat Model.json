@@ -139,13 +139,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -492,9 +485,9 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
-                "tampering": 1,
-                "repudiation": 1,
+                "spoofing": 3,
+                "tampering": 2,
+                "repudiation": 2,
                 "informationDisclosure": 1,
                 "denialOfService": 1,
                 "elevationOfPrivilege": 1
