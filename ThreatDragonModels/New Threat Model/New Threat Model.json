@@ -139,6 +139,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -376,7 +383,7 @@
               "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": false,
+              "isWebApplication": true,
               "privilegeLevel": "",
               "threats": [
                 {
@@ -756,6 +763,10 @@
                 "y": 200
               },
               {
+                "x": 220,
+                "y": 200
+              },
+              {
                 "x": 260,
                 "y": 170
               },
@@ -810,6 +821,10 @@
               "port": "e862279e-bf0e-4c2b-95df-61a4df65b41a"
             },
             "vertices": [
+              {
+                "x": 210,
+                "y": 260
+              },
               {
                 "x": 280,
                 "y": 280
