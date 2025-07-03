@@ -1,0 +1,30 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "Fabio Jimenez",
+    "description": "Sistema para carga deimagenes",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Juan pablo jimenez"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "base de stride",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "Juan Pablo",
+    "threatTop": 0
+  }
+}
