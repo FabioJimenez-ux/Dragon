@@ -135,7 +135,7 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
+              "handlesGoodsOrServices": true,
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
@@ -1102,15 +1102,15 @@
               "type": "tm.Store",
               "name": "base de datos",
               "description": "",
-              "outOfScope": false,
+              "outOfScope": true,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
+              "isEncrypted": true,
+              "isSigned": true,
+              "storesCredentials": true,
+              "storesInventory": true,
               "threats": []
             }
           },
@@ -1236,6 +1236,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "Juan Pablo",
-    "threatTop": 8
+    "threatTop": 14
   }
 }
