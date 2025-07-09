@@ -1,0 +1,30 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "Modelo de seguridad aplicacion de renta",
+    "owner": "Fabio Jimenez",
+    "description": "des",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "fabioj@smdlearnig.com"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Juan Pablo",
+    "threatTop": 0
+  }
+}
