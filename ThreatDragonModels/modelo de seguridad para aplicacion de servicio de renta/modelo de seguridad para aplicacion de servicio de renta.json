@@ -161,13 +161,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -578,11 +571,20 @@
                 "spoofing": 2,
                 "repudiation": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
             "position": {
-              "x": 1100,
+              "x": 1090,
               "y": 240
             },
             "size": {
@@ -596,12 +598,12 @@
               "topLine": {
                 "stroke": "red",
                 "strokeWidth": 2.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               },
               "bottomLine": {
                 "stroke": "red",
                 "strokeWidth": 2.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -694,7 +696,7 @@
               "type": "tm.Store",
               "name": "Base de datos ",
               "description": "Informacon de vehiculos usuarios y precios",
-              "outOfScope": false,
+              "outOfScope": true,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
@@ -716,11 +718,24 @@
                   "new": false,
                   "number": 6,
                   "score": ""
+                },
+                {
+                  "id": "0ae930c4-3b88-456f-b131-c044eb71e33b",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
@@ -1263,6 +1278,10 @@
             },
             "vertices": [
               {
+                "x": 1020,
+                "y": 270
+              },
+              {
                 "x": 1060,
                 "y": 280
               }
@@ -1411,6 +1430,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Juan Pablo",
-    "threatTop": 8
+    "threatTop": 9
   }
 }
