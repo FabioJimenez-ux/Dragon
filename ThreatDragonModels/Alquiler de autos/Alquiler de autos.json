@@ -1,0 +1,30 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "Alquiler de autos",
+    "owner": "Fabio Jimenez",
+    "description": "Este es un sistema para renta de Vehiculos con pasarela de pago , para identificar las brechas de seguridad.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "fabioj@smdlearnig.com"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Nuevo diagrama STRIDE",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.5.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Juan Pablo",
+    "threatTop": 0
+  }
+}
